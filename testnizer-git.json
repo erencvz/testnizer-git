@@ -1,6 +1,6 @@
 {
   "version": "testnizer-project/2.0",
-  "exportedAt": 1790083796313,
+  "exportedAt": 1790083835724,
   "kind": "project",
   "project": {
     "id": "a717ff1c-9bc5-42bd-af69-a8a3d5e9f6bd",
@@ -28,6 +28,17 @@
       "pre_script": null,
       "post_script": null,
       "branch_id": null
+    },
+    {
+      "id": "19a99fd6-5257-4f39-be27-8c313dfc6a5d",
+      "project_id": "a717ff1c-9bc5-42bd-af69-a8a3d5e9f6bd",
+      "parent_id": null,
+      "name": "banking",
+      "sort_order": 1,
+      "auth": null,
+      "pre_script": null,
+      "post_script": null,
+      "branch_id": "banking"
     }
   ],
   "endpoints": [],
@@ -74,6 +85,27 @@
       "created_at": 1790083699749,
       "updated_at": 1790083726406,
       "branch_id": null
+    },
+    {
+      "id": "de518271-39fd-4570-8647-34387147ebbb",
+      "project_id": "a717ff1c-9bc5-42bd-af69-a8a3d5e9f6bd",
+      "folder_id": "19a99fd6-5257-4f39-be27-8c313dfc6a5d",
+      "name": "dilegin-10klik-kredisi",
+      "protocol": "http",
+      "method": "GET",
+      "url": "istiyorum",
+      "params": "[]",
+      "headers": "[]",
+      "body": "{\"type\":\"none\"}",
+      "auth": "{\"type\":\"none\"}",
+      "pre_script": "",
+      "post_script": "",
+      "assertions": "[]",
+      "metadata": null,
+      "sort_order": 0,
+      "created_at": 1790083808284,
+      "updated_at": 1790083825030,
+      "branch_id": "banking"
     }
   ],
   "environments": [],
