@@ -1,6 +1,6 @@
 {
   "version": "testnizer-project/2.0",
-  "exportedAt": 1793347696548,
+  "exportedAt": 1793349463162,
   "kind": "project",
   "project": {
     "id": "ece1978c-4467-4dd8-8327-4e0c858660c5",
@@ -112,10 +112,76 @@
   "environments": [],
   "environmentVariables": [],
   "globalVariables": [],
-  "testSuites": [],
-  "testSuiteItems": [],
-  "testSuiteFolders": [],
-  "mockServers": [],
+  "testSuites": [
+    {
+      "id": "f4e7ca3e-1f7b-4040-82e7-d5ecb393389e",
+      "project_id": "ece1978c-4467-4dd8-8327-4e0c858660c5",
+      "name": "testnizer-git",
+      "description": null,
+      "sort_order": 0,
+      "created_at": 1793349458333,
+      "updated_at": 1793349458333,
+      "run_config": null
+    }
+  ],
+  "testSuiteItems": [
+    {
+      "id": "b6578299-1a75-4a92-a139-b2aea23f7927",
+      "suite_id": "f4e7ca3e-1f7b-4040-82e7-d5ecb393389e",
+      "folder_id": "5581a5cd-73e2-431c-af32-67ccc7951eb2",
+      "protocol": "http",
+      "name": "test",
+      "method": "GET",
+      "url": "https://httpbin.org/anything",
+      "request_schema": "{\"params\":[],\"headers\":[],\"body\":{\"type\":\"json\",\"content\":\"erendile\"},\"auth\":{\"type\":\"none\"},\"preScript\":\"\",\"postScript\":\"\"}",
+      "assertions": "[]",
+      "source_endpoint_id": "bb084e1d-5705-465c-ba3d-a83fed7b1c34",
+      "sort_order": 0,
+      "created_at": 1793349458349,
+      "updated_at": 1793349458349
+    }
+  ],
+  "testSuiteFolders": [
+    {
+      "id": "5581a5cd-73e2-431c-af32-67ccc7951eb2",
+      "suite_id": "f4e7ca3e-1f7b-4040-82e7-d5ecb393389e",
+      "parent_id": null,
+      "name": "test",
+      "sort_order": 0,
+      "created_at": 1793349458348,
+      "auth": null,
+      "pre_script": null,
+      "post_script": null
+    }
+  ],
+  "mockServers": [
+    {
+      "id": "c85fd17b-dfef-4890-aa17-0827c62f7cec",
+      "project_id": "ece1978c-4467-4dd8-8327-4e0c858660c5",
+      "name": "Mock Server",
+      "description": "",
+      "host": "127.0.0.1",
+      "port": 3001,
+      "base_path": "",
+      "auto_start": 0,
+      "cors_enabled": 0,
+      "cors_allow_origins": "*",
+      "cors_allow_methods": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS,QUERY",
+      "cors_allow_headers": "*",
+      "cors_allow_credentials": 0,
+      "cors_max_age": 600,
+      "auth_config": "{\"type\":\"none\"}",
+      "failure_config": "{\"enabled\":false,\"probability\":0,\"mode\":\"status\",\"status\":500,\"timeoutMs\":30000}",
+      "rate_limit_config": "{\"enabled\":false,\"requestsPerWindow\":100,\"windowMs\":60000,\"scope\":\"ip\"}",
+      "echo_enabled": 0,
+      "proxy_enabled": 0,
+      "proxy_target": "",
+      "proxy_record": 0,
+      "created_at": 1793349446617,
+      "updated_at": 1793349446617,
+      "kind": "http"
+    }
+  ],
   "mockEndpoints": [],
   "mockResponses": [],
   "certificates": [],
