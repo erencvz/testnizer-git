@@ -1,6 +1,6 @@
 {
   "version": "testnizer-project/2.0",
-  "exportedAt": 1790083881436,
+  "exportedAt": 1793347696548,
   "kind": "project",
   "project": {
     "id": "ece1978c-4467-4dd8-8327-4e0c858660c5",
@@ -15,7 +15,8 @@
     "local_path": "/Users/apnzr/Desktop/eren-testnizer",
     "icon_emoji": null,
     "icon_color": "#2D5FA0",
-    "display_name": "testnizer-git"
+    "display_name": "testnizer-git",
+    "shared_settings": null
   },
   "folders": [
     {
@@ -133,5 +134,6 @@
       "created_at": 1790083530762,
       "request_json": "{\"configured\":{\"method\":\"GET\",\"url\":\"https://httpbin.org/anything\",\"params\":[],\"headers\":[],\"body\":{\"type\":\"json\",\"content\":\"erendile\"},\"authType\":\"none\"},\"sent\":{\"method\":\"GET\",\"url\":\"https://httpbin.org/anything\",\"headers\":{\"Content-Type\":\"application/json\",\"User-Agent\":\"Testnizer/1.5.4\"},\"body\":\"erendile\"}}"
     }
-  ]
+  ],
+  "mockMcpServers": []
 }
